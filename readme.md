@@ -1,4 +1,4 @@
-# Lifegame
+# Life Simulation Game
 
 A Life Simulation Game written in Python for the command line. 
 
