@@ -42,7 +42,7 @@ date = datetime.date(2023, 11, 1)
 
 def begin_day():
     global player
-    narrate(dateVariables for the entire gamestrftime("%A, %m %d, %Y"))
+    narrate(date.strftime("%A, %m %d, %Y"))
     narrate("You wake up")
     player.food -= 10
     narrate(f"You eat breakfast, and now you have {player.food} food left")
